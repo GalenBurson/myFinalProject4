@@ -1,0 +1,139 @@
+body {
+  background: #333;
+  color: #fff; 
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; 
+}
+
+
+#home-section {
+  background: url("../imgs/sings.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px; 
+}
+
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1000px; 
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+
+}
+
+#home-section .card-form {
+  opacity: 0.8; 
+}
+
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; 
+}
+
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; 
+}
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; 
+}
+
+/* HOME SECTION ABOUT ME*/
+
+#home-section-aboutme {
+  background: #EEE3C6;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; 
+}
+
+
+
+
+img.gallery-image {
+
+  max-width: 25%;
+  border: 2px solid black;
+  margin-top: 10px;
+  float: right;
+}
+
+#home-section-aboutme p {
+  color: #070707;
+}
+
+#home-section-aboutme .home-inner {
+  padding-top: 100px;
+}
+
+#home-section-aboutme .home-inner h1 {
+  color: #202365;
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+}
+
+
+
+/* HOME HEAD SECTION ABOUT ME*/
+
+#head-section-aboutme {
+  background-color: #EEE3C6;
+  font-family: 'Lobster', cursive;
+  color: #202365;
+
+}
+/* TRAVEL SECTION*/
+
+.space {
+  color: white;
+}
+
+
+/* Contact Me Section */
+
+h1 .display-4 {
+  padding-top: 150px;
+}
+
+.col-lg-4 {
+  padding-top: 100px;
+}
+
+/* HOME SECTION FAMILY */
+.jumbotron {
+  margin-top: 70px;
+}
+
+.jumbotron h1 {
+  color: black;
+  font-family: "Alegreya", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 80px;
+
+}
+.jumbotron p {
+  color: black;
+  text-align: center;
+
+}
